@@ -1,0 +1,15 @@
+:root{
+    --bg-body : #0A3D18;
+    --bg-navBar: #4F9C2A;
+}
+body{
+    background: var(--bg-body);
+}
+.navbar{
+    background: var(--bg-navBar);
+    font-size: 1rem;
+    padding: 1rem 2rem;
+}
+.imgCarrusel{
+    height: 300px
+}

@@ -1,0 +1,1 @@
+Secciones: comidas, bebidas, helados, cafeteria, kiosko.
