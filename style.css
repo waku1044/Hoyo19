@@ -5,6 +5,9 @@
 body{
     background: var(--bg-body);
 }
+.logo{
+    width: 3rem;
+}
 .navbar{
     background: var(--bg-navBar);
     font-size: 1rem;
@@ -12,4 +15,61 @@ body{
 }
 .imgCarrusel{
     height: 300px
+}
+.frase{
+    position: relative;
+}
+.textFrase{
+    position: relative;
+    z-index: 3;
+    text-shadow: 2px 2px 4px #000000; 
+}
+.titulo{
+    position: relative;
+    bottom: 20px;
+    left: -25%;
+    font-size: 2rem;
+    font-family: "Risque", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 4px #000000; 
+      
+      
+}
+.ondaAmarilla{
+    z-index: 0;
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+@media screen and (min-width: 440px) {
+    .titulo{
+        left: -35%;
+        bottom: 15px;
+    }
+   
+    .textFrase{
+        font-size: 1.5rem;
+    }
+    .ondaAmarilla{
+        top: 30%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .logo{
+        width: 5rem;
+    }
+    .imgCarrusel{
+        height: 30rem;
+    }
+    .carousel{
+        margin:0px auto;      
+    }
+    .titulo{
+        left: -40%;
+        /* bottom: 10px; */
+    }
+    .textFrase{
+        font-size: 2rem;
+    }
 }
