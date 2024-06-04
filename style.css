@@ -18,41 +18,84 @@ body{
 }
 .frase{
     position: relative;
+    
+    margin-top: 2rem; 
+    
 }
 .textFrase{
-    position: relative;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0; 
     z-index: 3;
     text-shadow: 2px 2px 4px #000000; 
 }
 .titulo{
-    position: relative;
-    bottom: 20px;
-    left: -25%;
-    font-size: 2rem;
+   position: absolute;
+   top: 90px;
+    z-index: 3;
+    font-size: 1.5rem;
     font-family: "Risque", serif;
     font-weight: 400;
     font-style: normal;
     text-shadow: 2px 2px 4px #000000; 
-      
-      
+    color: aliceblue;  
+    
 }
 .ondaAmarilla{
-    z-index: 0;
+   
     position: absolute;
-    top: 10%;
-    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+.sectionDesayuno{
+    background-image:url(./assets/img/cafeteria3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.seccionBebidas{
+    background-image:url(./assets/img/genteEnResto.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.seccionComidas{
+    background-image:url(./assets/img/parrillada.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.clearfix{
+    clear: both;
+    content: '';
+    height: 8rem;
+}
+.card{
+    width: 15rem;
+} 
+.textBorder{
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
 }
 @media screen and (min-width: 440px) {
-    .titulo{
-        left: -35%;
-        bottom: 15px;
-    }
-   
-    .textFrase{
-        font-size: 1.5rem;
-    }
-    .ondaAmarilla{
-        top: 30%;
+    .titulo{ 
+        bottom: 70px;
     }
 }
 @media screen and (min-width: 768px) {
@@ -66,10 +109,13 @@ body{
         margin:0px auto;      
     }
     .titulo{
-        left: -40%;
-        /* bottom: 10px; */
+        
+        bottom: 60px;
+        left: 20px;
+        font-size: 2rem;
     }
     .textFrase{
+        
         font-size: 2rem;
     }
 }
