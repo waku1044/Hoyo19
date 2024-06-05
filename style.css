@@ -19,7 +19,7 @@ body{
 .frase{
     position: relative;
     
-    margin-top: 2rem; 
+    padding-top: 1rem; 
     
 }
 .textFrase{
@@ -29,6 +29,20 @@ body{
     right: 0; 
     z-index: 3;
     text-shadow: 2px 2px 4px #000000; 
+    
+}
+.textFrase1{
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0; 
+    z-index: 3;
+    text-shadow: 2px 2px 4px #000000; 
+    
+}
+.card-title{
+    font-size:2rem;
 }
 .titulo{
    position: absolute;
@@ -42,6 +56,33 @@ body{
     color: aliceblue;  
     
 }
+.titulo1{
+    position: absolute;
+    top: 50px;
+     z-index: 3;
+     font-size: 1.5rem;
+     font-family: "Risque", serif;
+     font-weight: 400;
+     font-style: normal;
+     text-shadow: 2px 2px 4px #000000; 
+     color: aliceblue;  
+     
+ }
+ .titulokiosco{
+    text-align: center;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    right: 0;
+     z-index: 3;
+     font-size: 1.7rem;
+     font-family: "Risque", serif;
+     font-weight: 400;
+     font-style: normal;
+     text-shadow: 2px 2px 4px #000000; 
+     color: aliceblue;  
+     
+ }
 .ondaAmarilla{
    
     position: absolute;
@@ -50,16 +91,6 @@ body{
 }
 .sectionDesayuno{
     background-image:url(./assets/img/cafeteria3.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-}
-.seccionBebidas{
-    background-image:url(./assets/img/genteEnResto.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -78,6 +109,38 @@ body{
     justify-content: center;
     gap: 1rem;
 }
+.seccionBebidas{
+    background-image:url(./assets/img/genteEnResto.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.seccionHelados{
+    background-image:url(./assets/img/postreFondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.seccionKiosco{
+    background-image:url(./assets/img/kiosco.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 500px;
+}
 .clearfix{
     clear: both;
     content: '';
@@ -93,9 +156,20 @@ body{
     -1px  1px 0 #000,
      1px  1px 0 #000;
 }
+.textBorder2{
+    text-shadow:
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000;
+}
 @media screen and (min-width: 440px) {
     .titulo{ 
         bottom: 70px;
+    }
+    .textFrase, .textFrase1{
+        
+        font-size: 1.5rem;
     }
 }
 @media screen and (min-width: 768px) {
@@ -106,16 +180,24 @@ body{
         height: 30rem;
     }
     .carousel{
-        margin:0px auto;      
+        margin:120px 100px;      
     }
-    .titulo{
+    .titulo , .titulo1{
         
         bottom: 60px;
         left: 20px;
         font-size: 2rem;
     }
     .textFrase{
+        top: -58px;
+    }
+    .textFrase, .textFrase1{
         
         font-size: 2rem;
     }
+    .textFrase1{
+        top: 48px;
+        left: 150px;
+    }
+    
 }
