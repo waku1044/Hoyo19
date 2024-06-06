@@ -183,6 +183,19 @@ body{
     -2px  2px 0 #000,
      2px  2px 0 #000;
 }
+.subFooter{
+    
+    width: 100%;
+    height: 5rem;
+    background-image: url(./assets/img/subfooter.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
 @media screen and (min-width: 440px) {
     .titulo{ 
         bottom: 70px;
@@ -251,6 +264,19 @@ body{
     .textFrase1{
         top: 45px;
         left: 190px;
+    }
+    .subFooter{
+        margin: 1rem auto;
+        width: 100%;
+        height: 10rem;
+        background-image: url(./assets/img/subfooter.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
     }
     
 }
