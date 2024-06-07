@@ -16,6 +16,7 @@ body{
 .imgCarrusel{
     height: 300px
 }
+
 .frase{
     position: relative;
     
@@ -45,6 +46,14 @@ body{
 }
 .card-title{
     font-size:2rem;
+}
+.textCarrusel{
+    font-size: 1.5rem;
+    font-family: "Risque", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 4px #000000; 
+    color: aliceblue;
 }
 .titulo{
    position: absolute;
@@ -186,8 +195,8 @@ body{
 .subFooter{
     
     width: 100%;
-    height: 5rem;
-    background-image: url(./assets/img/subfooter.svg);
+    height: 8rem;
+    background-image: url(./assets/img/subfooter2.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -195,6 +204,26 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     
+}
+.footer{
+    background-image: url(./assets/img/footerimg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem
+
+}
+span{
+    color: #C1A50F;
 }
 @media screen and (min-width: 440px) {
     .titulo{ 
