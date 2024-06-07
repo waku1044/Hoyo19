@@ -225,6 +225,20 @@ body{
 span{
     color: #C1A50F;
 }
+.whatsap{
+    height: 3rem;
+    position:fixed ;
+    right: 40px;
+    bottom: 10px;
+    z-index: 5;
+}
+.instagram{
+    height: 3rem;
+    position:fixed ;
+    right: 40px;
+    bottom: 90px;
+    z-index: 5;
+}
 @media screen and (min-width: 440px) {
     .titulo{ 
         bottom: 70px;
