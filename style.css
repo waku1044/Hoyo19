@@ -9,11 +9,20 @@ body{
     width: 3rem;
 }
 .navbar{
-    background: var(--bg-navBar);
+    background-image: url(./assets/img/entradaHoyo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    /* background: var(--bg-navBar); */
     font-size: 1rem;
     padding: 1rem 2rem;
     
 }
+.navbar-brand{
+    color: #fff;
+}
+
 .nav-link{
     margin-left: 1rem;
 }
@@ -354,14 +363,21 @@ span{
         
     }
     @media screen and (min-width: 992px) {
+        .carousel{
+            margin:170px 100px;      
+        }
         .nav-link{
             margin-left: 0;
         }
         .navCatering{
             text-align: center;
         }
+        .navbar-brand:hover{
+            color: #C3BD16 !important;
+            font-weight: 500;
+        }
         .nav-link:hover{
-            color: white !important;
+            color: #C3BD16 !important;
             transform: scale(1.1);
         }
     }
