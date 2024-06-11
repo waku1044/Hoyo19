@@ -17,10 +17,6 @@ body{
 .nav-link{
     margin-left: 1rem;
 }
-.nav-link:hover{
-    color: white !important;
-    transform: scale(1.1);
-}
 .paprika{
     font-family: "Paprika", system-ui;
     font-weight: 400;
@@ -363,6 +359,10 @@ span{
         }
         .navCatering{
             text-align: center;
+        }
+        .nav-link:hover{
+            color: white !important;
+            transform: scale(1.1);
         }
     }
     
