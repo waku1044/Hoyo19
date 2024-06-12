@@ -275,6 +275,7 @@ span{
 }
 .reproductor{
     height: 3rem;
+    width: 15rem;
     position:sticky;
     left: 0px;
     bottom: 0px;
