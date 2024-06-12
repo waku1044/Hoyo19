@@ -273,6 +273,13 @@ span{
     bottom: 90px;
     z-index: 5;
 }
+.reproductor{
+    height: 3rem;
+    position:fixed ;
+    left: 0px;
+    bottom: 0px;
+    z-index: 5;
+}
 @media screen and (min-width: 440px) {
     .titulo{ 
         bottom: 70px;
