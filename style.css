@@ -25,6 +25,7 @@ body{
 
 .nav-link{
     margin-left: 1rem;
+    text-transform: capitalize;
 }
 .paprika{
     font-family: "Paprika", system-ui;
@@ -302,6 +303,7 @@ span{
     }
     .nav-link{
         margin-left: 2.2rem;
+        
     }
     .carousel{
         margin:120px 100px;      
