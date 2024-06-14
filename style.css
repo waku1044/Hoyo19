@@ -376,6 +376,10 @@ span{
         .carousel{
             margin:170px 100px;      
         }
+        .carrusel_eventos{
+            width: 70%;
+            margin: auto;
+        }
         .nav-link{
             margin-left: 0;
         }
